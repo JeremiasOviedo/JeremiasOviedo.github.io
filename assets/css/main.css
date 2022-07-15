@@ -1595,9 +1595,10 @@ input, select, textarea {
 		transition: background-color .25s ease-in-out;
 		-webkit-appearance: none;
 		display: inline-block;
-		background-color: #222222;
+		background-color: #008CBA;
 		color: #ffffff;
 		border: 0;
+		border-radius: 8px;
 		cursor: pointer;
 		outline: 0;
 		padding: 0.7em 1.5em 0.7em 1.5em;
@@ -1608,7 +1609,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #333333;
+			background-color: #ffffff;
 		}
 
 		input[type="button"]:active,
@@ -2251,7 +2252,7 @@ input, select, textarea {
 		
 		.card-category-1, .card-category-2, .card-category-3, .card-category-4, .card-category-5, .card-category-6 {
 			font-family: sans-serif;
-			margin-bottom: 45px;
+			margin-bottom: 20px;
 			text-align: center;
 		}
 			.card-category-1 div, .card-category-2 div {
@@ -2259,13 +2260,13 @@ input, select, textarea {
 			}
 		
 			.card-category-1 > div, .card-category-2 > div:not(:last-child) {
-				margin: 10px 5px;
-				text-align: left;
+				margin: 5px 5px;
+				text-align: center;
 			}
 		
 			/* Basic Card */
 			.basic-card {
-				width:300px;
+				width:230px;
 				position: relative;
 				
 				-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
@@ -2275,16 +2276,20 @@ input, select, textarea {
 			}
 			
 				.basic-card .card-content {
-					padding: 30px;
+					padding: 20px;
 				}
 		
 				.basic-card .card-title {
-					font-size: 25px;
+					font-size: 30px;
 					font-family: 'Open Sans', sans-serif;
 				}
 		
 				.basic-card .card-text {
-					line-height: 1.6;
+					text-align: left;
+					line-height: 2.0;
+					font-size: 25px;
+					padding: 2px;
+					
 				}
 		
 				.basic-card .card-link {
