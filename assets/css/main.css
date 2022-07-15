@@ -2257,6 +2257,7 @@ input, select, textarea {
 		}
 			.card-category-1 div, .card-category-2 div {
 				display:inline-block;
+				margin-top: 10px;;
 			}
 		
 			.card-category-1 > div, .card-category-2 > div:not(:last-child) {
