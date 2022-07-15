@@ -2257,7 +2257,6 @@ input, select, textarea {
 		}
 			.card-category-1 div, .card-category-2 div {
 				display:inline-block;
-				margin-top: 10px;;
 			}
 		
 			.card-category-1 > div, .card-category-2 > div:not(:last-child) {
@@ -2268,6 +2267,7 @@ input, select, textarea {
 			/* Basic Card */
 			.basic-card {
 				width:230px;
+				margin:20px;
 				position: relative;
 				
 				-webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);
