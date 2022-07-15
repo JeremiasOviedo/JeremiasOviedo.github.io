@@ -3517,7 +3517,7 @@ input, select, textarea {
 
 		* {box-sizing:border-box}
 
-		a:link, a:visited, a:active {
+		a:link, a:visited, a:hover, a:active  {
 			text-decoration:none;
 		}
 
